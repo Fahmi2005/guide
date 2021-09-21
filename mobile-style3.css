@@ -1,0 +1,82 @@
+@media only screen and (max-width:768px){
+     header .book {
+      margin-left: -1rem  !important;
+    }
+    .navbar-nav{
+         margin-top: 3rem;
+         margin-right: 20rem !important;
+         margin-left: 2rem !important;
+    }
+    .nav-link{
+    }
+    .section-1 .row .col-md-6 .panel{
+        position: initial !important;
+        height: initial !important;
+        width: initial !important;
+    }
+    .section-2 .cover{
+      background-position:-20vmin -10vmin !important;
+    }
+
+
+    .numbers .rect{
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .numbers .rect h1{
+    font-size: 2rem;
+    }
+    .section-3{
+        height: inherit !important;
+        padding: 10vmin !important;
+    }
+    
+    .section-3 .row h1{
+        padding: 6vmin 4vmin;
+    }
+    .section-3 .row .col-md-6{
+        text-align: center !important;
+    }
+    .section-3 .desktop i{
+        font-size: 8vmin;
+        margin-right: 0.5rem;
+    }
+    .section-4 .team{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .section-4 .carousel-item{
+        padding-left: 0.4rem;
+        
+    }
+    .section-4 .carousel-inner{
+        width: 24rem;
+    }
+
+}
+
+@media only screen and (max-width:425px){
+    footer .row .col-md-2{
+        margin-top: 8vmin;
+    }
+    header .navbar{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:320px){
+    header .book{
+        margin-left: -1rem !important;
+    }
+    .section-4 .card{
+        width: 18rem !important;
+    }
+    
+    .section-4 .inner-carousel{
+        margin-right: 2rem !important;
+    }
+     .navbar-nav{
+        margin-top: 5rem;
+    }
+}
